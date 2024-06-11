@@ -70,6 +70,8 @@ describe("Contrato Fenixst", function () {
 
       it("Debe permitir que el administrador recupere Ether enviado por error", async function () {
         const initialBalance = await deployer.provider.getBalance(deployer.address) as bigint;
+        //convertir a precio Normal
+        // const price = ethers.
 
         // await deployer.sendTransaction();
         const ienitialBalance = await deployer.provider.getBalance(deployer.address) as bigint;

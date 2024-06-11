@@ -1,0 +1,20 @@
+Hola, necesito desarrollar un smart contract en Solidity para la generación de NFTs. Quiero utilizar las bibliotecas más recientes de OpenZeppelin. Aquí están los detalles específicos:
+
+1. **Versión de Solidity:** ^0.8.0
+2. **Nombre del Smart Contract:** MyNFT
+3. **Características del NFT:**
+   - **Nombre del Token:** MyToken
+   - **Símbolo del Token:** MTK
+   - **Cantidad Inicial:** No necesito una cantidad inicial fija.
+   - **URI Base:** ipfs://my-nft-uri/
+
+4. **Funciones Específicas:**
+   - **Minting:** Implementar una función `mint` que permita a los usuarios acuñar nuevos tokens.
+   - **Transferencia:** Función `transferFrom` para transferir tokens entre usuarios.
+   - **Metadatos:** Función `setTokenURI` para actualizar los metadatos de los NFTs.
+
+5. **Seguridad y Accesibilidad:**
+   - **Roles y Permisos:** Incluir un rol de `Admin` que pueda acuñar tokens y gestionar permisos.
+   - **Protección Contra Reingresos:** Asegurarse de que el contrato esté protegido contra ataques de reingreso.
+
+Por favor, incluye comentarios en el código y proporciona ejemplos de uso de las funciones principales. ¡Gracias!

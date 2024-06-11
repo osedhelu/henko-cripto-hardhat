@@ -1,0 +1,122 @@
+[
+    {
+        "payload_bytes": 777,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 486,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W006804\",\"transaction\":[{\"amount\":100,\"card\":\"603216******9621\",\"clientMid\":\"0081564345\",\"codaut\":\"095127\",\"refere\":\"415913000005\",\"trace\":\"000005\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"09:52:08\",\"posTerminalSerial\":\"N820W006804\",\"code\":\"175\",\"terminal\":\"00002008\",\"num_lote\":\"1401\"}],\"client\":{\"address\":\"TEO\",\"emails\":\"teo.125@farmatodo.com\",\"mid\":\"0081564345\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W006804\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":1401,\"codeVerifier\":175,\"email\":\"teo.125@farmatodo.com\",\"SalesAmount\":100,\"SalesQuantity\":1,\"serial\":\"N820W006804\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"09:52:08\",\"Terminal\":\"00002008\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564345\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 805,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 485,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W005243\",\"transaction\":[{\"amount\":1,\"card\":\"603216******3815\",\"clientMid\":\"0084428655\",\"codaut\":\"094921\",\"refere\":\"415913000008\",\"trace\":\"000008\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"09:50:24\",\"posTerminalSerial\":\"N820W005243\",\"code\":\"962\",\"terminal\":\"00002002\",\"num_lote\":\"200\"}],\"client\":{\"address\":\"CATIA BOULEVARD\",\"emails\":\"boulevarcatia.2105@farmatodo.com\",\"mid\":\"0084428655\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W005243\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":200,\"codeVerifier\":962,\"email\":\"boulevarcatia.2105@farmatodo.com\",\"SalesAmount\":1,\"SalesQuantity\":1,\"serial\":\"N820W005243\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"09:50:24\",\"Terminal\":\"00002002\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0084428655\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 2419,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 484,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W005510\",\"transaction\":[{\"amount\":24063,\"card\":\"601288******4404\",\"clientMid\":\"0081562423\",\"codaut\":\"024713\",\"refere\":\"415904000040\",\"trace\":\"000040\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":17413,\"card\":\"601288******0123\",\"clientMid\":\"0081562423\",\"codaut\":\"026515\",\"refere\":\"415904000041\",\"trace\":\"000041\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":7600,\"card\":\"601288******1241\",\"clientMid\":\"0081562423\",\"codaut\":\"028823\",\"refere\":\"415904000042\",\"trace\":\"000042\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":31780,\"card\":\"601288******0376\",\"clientMid\":\"0081562423\",\"codaut\":\"031746\",\"refere\":\"415904000044\",\"trace\":\"000044\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":15341,\"card\":\"603122******9080\",\"clientMid\":\"0081562423\",\"codaut\":\"084374\",\"refere\":\"415904000045\",\"trace\":\"000045\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":18621,\"card\":\"601288******7031\",\"clientMid\":\"0081562423\",\"codaut\":\"034449\",\"refere\":\"415904000046\",\"trace\":\"000046\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"},{\"amount\":1300,\"card\":\"589941******4217\",\"clientMid\":\"0081562423\",\"codaut\":\"322776\",\"refere\":\"415904000048\",\"trace\":\"000048\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"07:45:34\",\"posTerminalSerial\":\"N820W005510\",\"code\":\"371\",\"terminal\":\"00002004\",\"num_lote\":\"609\"}],\"client\":{\"address\":\"UMBRAL\",\"emails\":\"umbral.271@farmatodo.com\",\"mid\":\"0081562423\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W005510\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":609,\"codeVerifier\":371,\"email\":\"umbral.271@farmatodo.com\",\"SalesAmount\":116118,\"SalesQuantity\":7,\"serial\":\"N820W005510\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"07:45:34\",\"Terminal\":\"00002004\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081562423\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 1074,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 483,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W007292\",\"transaction\":[{\"amount\":45973,\"card\":\"589524******1063\",\"clientMid\":\"0081564710\",\"codaut\":\"512826\",\"refere\":\"415901000076\",\"trace\":\"000076\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:51:48\",\"posTerminalSerial\":\"N820W007292\",\"code\":\"139\",\"terminal\":\"00002005\",\"num_lote\":\"816\"},{\"amount\":70716,\"card\":\"589524******4082\",\"clientMid\":\"0081564710\",\"codaut\":\"530856\",\"refere\":\"415902000077\",\"trace\":\"000077\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:51:48\",\"posTerminalSerial\":\"N820W007292\",\"code\":\"139\",\"terminal\":\"00002005\",\"num_lote\":\"816\"}],\"client\":{\"address\":\"BELLA VISTA\",\"emails\":\"bellavista.153@farmatodo.com\",\"mid\":\"0081564710\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W007292\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":816,\"codeVerifier\":139,\"email\":\"bellavista.153@farmatodo.com\",\"SalesAmount\":116689,\"SalesQuantity\":2,\"serial\":\"N820W007292\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:51:48\",\"Terminal\":\"00002005\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564710\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 2444,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 482,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W005431\",\"transaction\":[{\"amount\":98979,\"card\":\"413037******8639\",\"clientMid\":\"0081506957\",\"codaut\":\"066136\",\"refere\":\"415900000549\",\"trace\":\"000549\",\"transtype\":\"VISA DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"367\",\"terminal\":\"00001016\",\"num_lote\":\"3055\"},{\"amount\":17569,\"card\":\"589524******8047\",\"clientMid\":\"0081506957\",\"codaut\":\"509734\",\"refere\":\"415901000550\",\"trace\":\"000550\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"457\",\"terminal\":\"00002016\",\"num_lote\":\"3062\"},{\"amount\":17392,\"card\":\"601288******1471\",\"clientMid\":\"0081506957\",\"codaut\":\"360559\",\"refere\":\"415903000551\",\"trace\":\"000551\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"457\",\"terminal\":\"00002016\",\"num_lote\":\"3062\"},{\"amount\":24663,\"card\":\"501878******1244\",\"clientMid\":\"0081506957\",\"codaut\":\"011810\",\"refere\":\"415903000553\",\"trace\":\"000553\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"457\",\"terminal\":\"00002016\",\"num_lote\":\"3062\"},{\"amount\":34465,\"card\":\"501878******2321\",\"clientMid\":\"0081506957\",\"codaut\":\"045951\",\"refere\":\"415904000554\",\"trace\":\"000554\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"457\",\"terminal\":\"00002016\",\"num_lote\":\"3062\"},{\"amount\":135198,\"card\":\"601288******1471\",\"clientMid\":\"0081506957\",\"codaut\":\"230317\",\"refere\":\"415906000560\",\"trace\":\"000560\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:36:21\",\"posTerminalSerial\":\"N820W005431\",\"code\":\"457\",\"terminal\":\"00002016\",\"num_lote\":\"3062\"}],\"client\":{\"address\":\"MELANIE\",\"emails\":\"melanie.119@farmatodo.com\",\"mid\":\"0081506957\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W005431\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":3062,\"codeVerifier\":457,\"email\":\"melanie.119@farmatodo.com\",\"SalesAmount\":229287,\"SalesQuantity\":5,\"serial\":\"N820W005431\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:36:21\",\"Terminal\":\"00002016\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081506957\",\"credit\":false},\"tmpCredit\":{\"BatchNumber\":3055,\"codeVerifier\":367,\"email\":\"melanie.119@farmatodo.com\",\"SalesAmount\":98979,\"serial\":\"N820W005431\",\"SalesQuantity\":1,\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:36:21\",\"Terminal\":\"00001016\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081506957\",\"credit\":true}}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 1063,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 481,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W007638\",\"transaction\":[{\"amount\":20461,\"card\":\"601288******3281\",\"clientMid\":\"0081564540\",\"codaut\":\"025680\",\"refere\":\"415904000066\",\"trace\":\"000066\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:53:55\",\"posTerminalSerial\":\"N820W007638\",\"code\":\"271\",\"terminal\":\"00002011\",\"num_lote\":\"2010\"},{\"amount\":31440,\"card\":\"601288******7484\",\"clientMid\":\"0081564540\",\"codaut\":\"031284\",\"refere\":\"415904000068\",\"trace\":\"000068\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:53:55\",\"posTerminalSerial\":\"N820W007638\",\"code\":\"271\",\"terminal\":\"00002011\",\"num_lote\":\"2010\"}],\"client\":{\"address\":\"MARFIL\",\"emails\":\"marfil.147@farmatodo.com\",\"mid\":\"0081564540\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W007638\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":2010,\"codeVerifier\":271,\"email\":\"marfil.147@farmatodo.com\",\"SalesAmount\":51901,\"SalesQuantity\":2,\"serial\":\"N820W007638\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:53:55\",\"Terminal\":\"00002011\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564540\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 1069,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 480,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W004925\",\"transaction\":[{\"amount\":29002,\"card\":\"601400******2185\",\"clientMid\":\"0081507066\",\"codaut\":\"000010\",\"refere\":\"415816000010\",\"trace\":\"000010\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/06\",\"hora\":\"23:41:40\",\"posTerminalSerial\":\"N820W004925\",\"code\":\"910\",\"terminal\":\"00002008\",\"num_lote\":\"1401\"},{\"amount\":142230,\"card\":\"601288******7053\",\"clientMid\":\"0081507066\",\"codaut\":\"539482\",\"refere\":\"415819000011\",\"trace\":\"000011\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/06\",\"hora\":\"23:41:40\",\"posTerminalSerial\":\"N820W004925\",\"code\":\"910\",\"terminal\":\"00002008\",\"num_lote\":\"1401\"}],\"client\":{\"address\":\"TORRE EUROPA\",\"emails\":\"torre.662@farmatodo.com\",\"mid\":\"0081507066\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W004925\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":1401,\"codeVerifier\":910,\"email\":\"torre.662@farmatodo.com\",\"SalesAmount\":171232,\"SalesQuantity\":2,\"serial\":\"N820W004925\",\"settlementDate\":\"2024/06/06\",\"settlementTime\":\"23:41:40\",\"Terminal\":\"00002008\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081507066\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 4087,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 479,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W005599\",\"transaction\":[{\"amount\":108371,\"card\":\"589524******2465\",\"clientMid\":\"0081564400\",\"codaut\":\"195396\",\"refere\":\"415811000034\",\"trace\":\"000034\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":380211,\"card\":\"501878******4303\",\"clientMid\":\"0081564400\",\"codaut\":\"024772\",\"refere\":\"415813000035\",\"trace\":\"000035\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":19082,\"card\":\"501878******3567\",\"clientMid\":\"0081564400\",\"codaut\":\"031527\",\"refere\":\"415815000036\",\"trace\":\"000036\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":345081,\"card\":\"411773******1340\",\"clientMid\":\"0081564400\",\"codaut\":\"101337\",\"refere\":\"415816000037\",\"trace\":\"000037\",\"transtype\":\"VISA DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"252\",\"terminal\":\"00001008\",\"num_lote\":\"1404\"},{\"amount\":82890,\"card\":\"589524******8741\",\"clientMid\":\"0081564400\",\"codaut\":\"708820\",\"refere\":\"415816000038\",\"trace\":\"000038\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":194059,\"card\":\"601288******8358\",\"clientMid\":\"0081564400\",\"codaut\":\"428680\",\"refere\":\"415818000039\",\"trace\":\"000039\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":37561,\"card\":\"589941******6257\",\"clientMid\":\"0081564400\",\"codaut\":\"984674\",\"refere\":\"415820000040\",\"trace\":\"000040\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":56452,\"card\":\"601288******7534\",\"clientMid\":\"0081564400\",\"codaut\":\"679438\",\"refere\":\"415820000041\",\"trace\":\"000041\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":138385,\"card\":\"601288******1053\",\"clientMid\":\"0081564400\",\"codaut\":\"743504\",\"refere\":\"415821000042\",\"trace\":\"000042\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":42759,\"card\":\"628155******3620\",\"clientMid\":\"0081564400\",\"codaut\":\"517237\",\"refere\":\"415822000043\",\"trace\":\"000043\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":335534,\"card\":\"601288******8740\",\"clientMid\":\"0081564400\",\"codaut\":\"938713\",\"refere\":\"415823000044\",\"trace\":\"000044\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"},{\"amount\":131719,\"card\":\"588891******6476\",\"clientMid\":\"0081564400\",\"codaut\":\"003075\",\"refere\":\"415902000045\",\"trace\":\"000045\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:37:08\",\"posTerminalSerial\":\"N820W005599\",\"code\":\"357\",\"terminal\":\"00002008\",\"num_lote\":\"1406\"}],\"client\":{\"address\":\"MIRENA\",\"emails\":\"mirena.115@farmatodo.com\",\"mid\":\"0081564400\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W005599\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":1406,\"codeVerifier\":357,\"email\":\"mirena.115@farmatodo.com\",\"SalesAmount\":1527023,\"SalesQuantity\":11,\"serial\":\"N820W005599\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:37:08\",\"Terminal\":\"00002008\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564400\",\"credit\":false},\"tmpCredit\":{\"BatchNumber\":1404,\"codeVerifier\":252,\"email\":\"mirena.115@farmatodo.com\",\"SalesAmount\":345081,\"serial\":\"N820W005599\",\"SalesQuantity\":1,\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:37:08\",\"Terminal\":\"00001008\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564400\",\"credit\":true}}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 1077,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 478,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W007280\",\"transaction\":[{\"amount\":69057,\"card\":\"589941******5422\",\"clientMid\":\"0081564710\",\"codaut\":\"943771\",\"refere\":\"415900000037\",\"trace\":\"000037\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:51:31\",\"posTerminalSerial\":\"N820W007280\",\"code\":\"588\",\"terminal\":\"00002006\",\"num_lote\":\"1009\"},{\"amount\":51445,\"card\":\"601288******5474\",\"clientMid\":\"0081564710\",\"codaut\":\"075669\",\"refere\":\"415900000038\",\"trace\":\"000038\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:51:31\",\"posTerminalSerial\":\"N820W007280\",\"code\":\"588\",\"terminal\":\"00002006\",\"num_lote\":\"1009\"}],\"client\":{\"address\":\"BELLA VISTA\",\"emails\":\"bellavista.153@farmatodo.com\",\"mid\":\"0081564710\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W007280\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":1009,\"codeVerifier\":588,\"email\":\"bellavista.153@farmatodo.com\",\"SalesAmount\":120502,\"SalesQuantity\":2,\"serial\":\"N820W007280\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:51:31\",\"Terminal\":\"00002006\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081564710\",\"credit\":false},\"tmpCredit\":null}",
+        "payload_encoding": "string"
+    },
+    {
+        "payload_bytes": 2188,
+        "redelivered": true,
+        "exchange": "",
+        "routing_key": "QUEUE_ORM_ADD_DATA",
+        "message_count": 477,
+        "properties": {
+            "headers": {}
+        },
+        "payload": "{\"terminal\":\"N820W007072\",\"transaction\":[{\"amount\":9987,\"card\":\"541744******1557\",\"clientMid\":\"0081506957\",\"codaut\":\"889536\",\"refere\":\"415900001211\",\"trace\":\"001211\",\"transtype\":\"MASTERCARD DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:42:52\",\"posTerminalSerial\":\"N820W007072\",\"code\":\"816\",\"terminal\":\"00002011\",\"num_lote\":\"2128\"},{\"amount\":137579,\"card\":\"601288******1902\",\"clientMid\":\"0081506957\",\"codaut\":\"020317\",\"refere\":\"415904001212\",\"trace\":\"001212\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:42:52\",\"posTerminalSerial\":\"N820W007072\",\"code\":\"816\",\"terminal\":\"00002011\",\"num_lote\":\"2128\"},{\"amount\":42571,\"card\":\"601288******8976\",\"clientMid\":\"0081506957\",\"codaut\":\"021724\",\"refere\":\"415904001213\",\"trace\":\"001213\",\"transtype\":\"DEBIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:42:52\",\"posTerminalSerial\":\"N820W007072\",\"code\":\"816\",\"terminal\":\"00002011\",\"num_lote\":\"2128\"},{\"amount\":23150,\"card\":\"422099******3213\",\"clientMid\":\"0081506957\",\"codaut\":\"004080\",\"refere\":\"415904001216\",\"trace\":\"001216\",\"transtype\":\"CREDIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:42:52\",\"posTerminalSerial\":\"N820W007072\",\"code\":\"496\",\"terminal\":\"00001011\",\"num_lote\":\"2111\"},{\"amount\":13028,\"card\":\"526227******3476\",\"clientMid\":\"0081506957\",\"codaut\":\"01457Z\",\"refere\":\"415904001217\",\"trace\":\"001217\",\"transtype\":\"CREDIT\",\"fecha\":\"2024/06/07\",\"hora\":\"06:42:52\",\"posTerminalSerial\":\"N820W007072\",\"code\":\"496\",\"terminal\":\"00001011\",\"num_lote\":\"2111\"}],\"client\":{\"address\":\"LOS PALOS GRANDES\",\"emails\":\"melanie.119@farmatodo.com\",\"mid\":\"0081506957\",\"nameBank\":\"BFC\",\"rif\":\"J-000202001\",\"serial\":\"N820W007072\",\"created_at\":null},\"tmpDebit\":{\"BatchNumber\":2128,\"codeVerifier\":816,\"email\":\"melanie.119@farmatodo.com\",\"SalesAmount\":190137,\"SalesQuantity\":3,\"serial\":\"N820W007072\",\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:42:52\",\"Terminal\":\"00002011\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081506957\",\"credit\":false},\"tmpCredit\":{\"BatchNumber\":2111,\"codeVerifier\":496,\"email\":\"melanie.119@farmatodo.com\",\"SalesAmount\":36178,\"serial\":\"N820W007072\",\"SalesQuantity\":2,\"settlementDate\":\"2024/06/07\",\"settlementTime\":\"06:42:52\",\"Terminal\":\"00001011\",\"VoidsAmount\":0,\"VoidsQuantity\":0,\"mid\":\"0081506957\",\"credit\":true}}",
+        "payload_encoding": "string"
+    }
+]
